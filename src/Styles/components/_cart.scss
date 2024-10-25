@@ -1,0 +1,27 @@
+.cart-section {
+  .cart-box {
+    &__title {
+      color: $gray;
+      margin-bottom: 30px;
+
+      h3 {
+        color: $black;
+      }
+    }
+
+    &__img {
+      margin: 0;
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+    &__wrapper {
+      display: flex;
+      border: 1px solid gray;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 0;
+    }
+  }
+}

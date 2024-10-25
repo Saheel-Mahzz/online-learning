@@ -1,0 +1,26 @@
+.instructor-section {
+  padding: 50px 0;
+  .instructor {
+    &__title {
+      a {
+        font-size: 32px;
+        color: blue;
+        text-decoration: underline;
+        font-weight: $font-weight-semibold;
+      }
+    }
+
+    &__sub-title {
+      display: block;
+    }
+
+    &__details {
+      display: flex;
+    }
+
+    &__sub-details {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

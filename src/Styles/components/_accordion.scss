@@ -1,0 +1,40 @@
+.accordion-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .accordion {
+    cursor: pointer;
+    &__content {
+      opacity: 0;
+      display: none;
+    }
+
+    &__item {
+      background: $corn-slick;
+      border: 1px solid $black;
+      padding-left: 20px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+
+      &.active {
+        & + .accordion__content {
+          opacity: 1;
+          display: block;
+        }
+      }
+
+      h3 {
+        margin-bottom: 0;
+      }
+    }
+
+    &__content {
+      list-style: none;
+
+      li {
+        border-bottom: 1px solid $gray;
+        padding: 12px 0;
+      }
+    }
+  }
+}

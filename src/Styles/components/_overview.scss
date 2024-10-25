@@ -1,0 +1,22 @@
+.overview-section {
+  .study-options {
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__category {
+      display: flex;
+      padding: 0;
+      list-style: none;
+      gap: 30px;
+
+      a {
+        color: $gray;
+        transition: color 0.3s ease-in-out;
+        &:hover {
+          color: $black;
+        }
+      }
+    }
+  }
+}

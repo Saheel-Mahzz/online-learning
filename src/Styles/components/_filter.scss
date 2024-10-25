@@ -1,0 +1,36 @@
+.filter-section {
+  padding: 50px 0;
+  .filter-courses {
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__info {
+      display: flex;
+    }
+
+    &__img {
+      margin: 0;
+      width: 300px;
+    }
+
+    &__desc {
+      display: flex;
+      padding: 0 0 30px;
+      margin: 0 20px;
+      flex-direction: column;
+      border-bottom: 1px solid $gray;
+    }
+
+    &__author {
+      font-size: 14px;
+      color: $gray;
+      font-weight: $font-weight-light;
+    }
+
+    &__price {
+      align-self: flex-start;
+    }
+  }
+}

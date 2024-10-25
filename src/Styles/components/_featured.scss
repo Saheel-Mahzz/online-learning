@@ -1,0 +1,14 @@
+.featured-section {
+  .featured-card {
+    padding: 20px;
+    border: 1px solid $black;
+
+    &__profile {
+      display: flex;
+    }
+    &__details {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
