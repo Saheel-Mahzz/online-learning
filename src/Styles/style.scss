@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+//vendors
+@import "./abstracts/mixin";
+@import "./abstracts/variables";
+
+//Base Styles
+@import "./base/typography";
+
+//Component Styles
+@import "./components/index";
+
+//layout related Sections
+@import "./layout/common";
+@import "./layout/footer";
+@import "./layout/header";

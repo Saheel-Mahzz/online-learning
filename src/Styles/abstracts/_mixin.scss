@@ -1,0 +1,17 @@
+@mixin media($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $min-width: map-get($breakpoints, $breakpoint);
+    @media screen and (min-width: $min-width) {
+      @content;
+    }
+  }
+}
+
+@mixin media($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $min-width: map-get($breakpoints, $breakpoint);
+    @media screen and (min-width: $min-width) {
+      @content;
+    }
+  }
+}

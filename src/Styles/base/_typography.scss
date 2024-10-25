@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-base;
+  background-color: $body-bg;
+  color: $body-color;
+  font-size: 26px;
+  line-height: $line-height-base;
+  font-weight: $font-weight-normal;
+
+  @include media("desktop") {
+    font-size: 20px;
+  }
+}
+
+ul,
+ol,
+dl,
+p {
+  margin: 0 0 $paragraph-margin-bottom;
+}
